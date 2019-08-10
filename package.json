@@ -5,12 +5,13 @@
     "create": "lerna create",
     "tsc": "lerna run tsc",
     "publish": "lerna run tsc && lerna publish",
-    "commit": "npx git-cz",
+    "commit": "git-cz",
     "deploy": "lerna publish"
   },
   "devDependencies": {
     "@types/node": "^12.7.1",
     "cz-lerna-changelog": "^2.0.2",
+    "git-cz": "^3.2.1",
     "lerna": "^3.16.4",
     "typescript": "^3.5.3"
   },
@@ -20,7 +21,7 @@
     }
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/",
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   }
 }

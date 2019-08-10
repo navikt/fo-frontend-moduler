@@ -1,6 +1,6 @@
 {
   "name": "@navikt/other-test-module",
-  "version": "1.0.5",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "alexander-svendsen <alexandersvendsen1990@gmail.com>",
   "homepage": "https://github.com/navikt/fo-frontend-moduler#readme",
@@ -25,6 +25,5 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  },
-  "gitHead": "c1859951cda10d986a516e35280cb4b735c4c4af"
+  }
 }

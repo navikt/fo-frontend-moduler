@@ -6,6 +6,7 @@
     "tsc": "lerna run tsc",
     "publish": "lerna run tsc && lerna publish",
     "commit": "git-cz",
+    "test": "lerna run test",
     "deploy": "lerna publish"
   },
   "devDependencies": {

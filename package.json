@@ -17,5 +17,8 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }

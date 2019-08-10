@@ -1,11 +1,11 @@
 {
-  "name": "test-module",
+  "name": "@navikt/test-module",
   "version": "1.0.0",
   "description": "a test module",
-  "author": "alexander-svendsen <alexandersvendsen1990@gmail.com>",
   "homepage": "",
   "license": "MIT",
   "main": "lib/test-module.js",
+  "repository": "git@github.com:navikt/fo-frontend-moduler.git",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

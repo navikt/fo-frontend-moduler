@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "create": "lerna create",
+    "tsc": "lerna run tsc",
+    "publish": "lerna run tsc && lerna publish",
+    "commit": "npx git-cz"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "cz-lerna-changelog": "^2.0.2",
+    "lerna": "^3.16.4",
+    "typescript": "^3.5.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
+}

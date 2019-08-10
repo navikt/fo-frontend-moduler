@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/navikt/fo-frontend-moduler/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }

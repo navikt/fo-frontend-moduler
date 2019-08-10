@@ -5,7 +5,8 @@
     "create": "lerna create",
     "tsc": "lerna run tsc",
     "publish": "lerna run tsc && lerna publish",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "deploy": "lerna publish"
   },
   "devDependencies": {
     "@types/node": "^12.7.1",

@@ -1,4 +1,4 @@
-export class Stuff(){
+export class Stuff{
   stuff(){
     return "hhahas"
   }

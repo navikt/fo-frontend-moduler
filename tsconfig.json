@@ -9,6 +9,7 @@
    "experimentalDecorators": true,
    "target": "es6",
    "sourceMap": true,
+   "declaration": true,
    "lib": [
      "es6"
    ]

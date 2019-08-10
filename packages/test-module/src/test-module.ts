@@ -1,7 +1,7 @@
 
 
 export function Halla(){
-  return "Halla12";
+  return "Halla";
 };
 
 

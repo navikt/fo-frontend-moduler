@@ -4,7 +4,7 @@
   "scripts": {
     "create": "lerna create",
     "tsc": "lerna run tsc",
-    "publish": "lerna run tsc && lerna publish from-package --yes --registry https://npm.pkg.github.com/",
+    "publish": "lerna run tsc && lerna publish from-package --yes",
     "commit": "git-cz",
     "test": "lerna run test",
     "deploy": "lerna publish",

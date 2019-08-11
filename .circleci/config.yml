@@ -28,9 +28,6 @@ jobs:
           name: Run tests
           command: npm test
   release:
-    branches:
-      only:
-        - master
     docker:
       - image: circleci/node:11.3.0
     steps:
@@ -63,6 +60,10 @@ workflows:
     jobs:
       - test
       - release:
+          filters:  # using regex filters requires the entire branch to match
+              branches:
+                only:  # only branches matching the below regex filters will run
+                  - master
           context: pus
           requires:
             - test

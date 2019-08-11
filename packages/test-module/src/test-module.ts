@@ -6,5 +6,5 @@ export function Halla(){
 
 
 export function Halla2(navn: string){
-  return "Halla " + navn;
+  return "Halla " + navn + "!";
 };

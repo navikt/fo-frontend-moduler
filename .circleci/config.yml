@@ -67,6 +67,5 @@ workflows:
               branches:
                 only:  # only branches matching the below regex filters will run
                   - master
-          context: pus
           requires:
             - test

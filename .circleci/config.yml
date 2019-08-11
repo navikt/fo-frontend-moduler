@@ -45,6 +45,9 @@ jobs:
           key: v1-dependencies-{{ .Branch }}-{{ checksum "package-lock.json" }}
           paths:
             - /root/.npm
+      - run:
+          name: Set registry URL
+          command: npm set registry https://npm.pkg.github.com
 
       - run:
           name: Authenticate with registry

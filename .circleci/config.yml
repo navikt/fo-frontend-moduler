@@ -55,7 +55,7 @@ jobs:
 
       - run:
           name: Publish package
-          command:  npm run publish
+          command:  npm run cli-publish
 
 workflows:
   version: 2

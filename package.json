@@ -5,7 +5,7 @@
     "create": "lerna create",
     "tsc": "lerna run tsc",
     "publish": "lerna run tsc && lerna publish from-package --yes",
-    "cli-publish": "lerna run tsc && lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${{NPM_TOKEN}}",
+    "cli-publish": "lerna run tsc && lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${NPM_TOKEN}",
     "commit": "git-cz",
     "test": "lerna run test",
     "deploy": "lerna publish",

@@ -46,16 +46,12 @@ jobs:
           paths:
             - /root/.npm
       - run:
-          name: Set registry URL
-          command: npm set registry https://npm.pkg.github.com
-
-      - run:
           name: Authenticate with registry
           command: echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" > ~/.npmrc
 
       - run:
           name: Publish package
-          command:  npm run cli-publish
+          command:  npm run publish
 
 workflows:
   version: 2

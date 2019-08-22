@@ -8,4 +8,5 @@
 const otherTestModule = require('other-test-module');
 
 // TODO: DEMONSTRATE API
+...
 ```
